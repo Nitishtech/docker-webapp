@@ -5,6 +5,6 @@
     - name: remove container
       shell: docker container rm rockstar-container
     - name: remove docker image
-      shell: docker image rm nitishgupta/docker-webapp                            #name of images (docker images)
+      shell: docker image rm nitishtech/docker-webapp                            #name of images (docker images)
     - name: create new container
-      shell: docker container run -itd --name rockstar-container -p 9000:80 nitishgupta/docker-webapp
+      shell: docker container run -itd --name rockstar-container -p 9000:80 nitishtech/docker-webapp
